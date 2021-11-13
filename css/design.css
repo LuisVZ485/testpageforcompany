@@ -1,4 +1,40 @@
-body {
-    background-color: white;
-    color: #000;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #E55D87;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(195, 71%, 63%, 0.664), hsla(341, 72%, 63%, 0.658)), url(../img/portada.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(195, 71%, 63%, 0.664), hsla(341, 72%, 63%, 0.658)), url(../img/portada.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+

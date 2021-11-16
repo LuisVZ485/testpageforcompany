@@ -38,3 +38,50 @@ header {
     position: relative;
 }
 
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+  
+    text-decoration: underline;
+    
+}
+
+header .text-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.text-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

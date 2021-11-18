@@ -85,3 +85,9 @@ header .text-header{
     bottom: 0;
     width: 100%;
 }
+
+/* About us */
+
+.container_about-us{
+    display: flex;
+}

@@ -86,8 +86,9 @@ header .text-header{
     width: 100%;
 }
 
-/* About us  a*/
+/* About us */
 
 .container_about-us{
     display: flex;
+    justify-content: space-evenly;
 }

@@ -1,3 +1,4 @@
+/*general things*/
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/*about the body*/
 
 .container {
     padding: 60px 0;

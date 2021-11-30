@@ -122,7 +122,15 @@ header .text-header{
 }
 
 .container_text{
-    
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
 }
 
+/* Gallery */
+
+
+.portfolio{
+    background: #f2f2f2;
+}
 

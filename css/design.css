@@ -95,3 +95,34 @@ header .text-header{
     display: flex;
     justify-content: space-evenly;
 }
+
+.img_about-us{
+    width: 48%;
+}
+
+.about-us .container_text{
+    width: 48%;
+}
+
+.container_text h3{
+    margin-bottom: 15px;
+}
+
+.container_text h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.container_text{
+    
+}
+
+

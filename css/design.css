@@ -290,3 +290,70 @@ footer{
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+
+/* responsive */
+
+@media screen and (max-width:900px){
+
+    header{
+        background-position: center;
+    }
+
+    .container_about-us{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us .container_text{
+        width: 90%;
+    }
+
+    .img_about-us{
+        width: 90%;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    /* Clientes */
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        width: 90%;
+    }
+
+    .cards .card:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* servicios */
+
+    .service-cont{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .service-ind{
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-ind:nth-child(1), .service-ind:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .service-ind img{
+        width: 90%;
+    }
+
+
+}

@@ -365,28 +365,28 @@ footer{
             margin-right: 5px;
         }
     
-        .textos-header h1{
+        .text-header h1{
             font-size: 35px;
         }
     
-        .textos-header h2{
+        .text-header h2{
             font-size: 20px;
         }
     
         /* ABOUT US */
     
-        .imagen-about-us{
+        .img_about-us{
             margin-bottom: 60px;
             width: 99%;
         }
     
-        .sobre-nosotros .contenido-textos{
+        .about-us .container_text{
             width: 95%;
         }
     
-        /* Galeria */
+        /* Gallery */
     
-        .imagen-port{
+        .img-port{
             width: 95%;
         }
     

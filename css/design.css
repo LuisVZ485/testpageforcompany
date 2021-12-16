@@ -9,6 +9,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*about the body*/
 
 .container {

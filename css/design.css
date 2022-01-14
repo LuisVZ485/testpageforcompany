@@ -66,6 +66,10 @@ nav > a:hover {
     
 }
 
+body.light{
+    background-color: #fff5ee;
+}
+
 header .text-header{
     display: flex;
     height: 430px;
@@ -93,6 +97,14 @@ header .text-header{
     position: absolute;
     bottom: 0;
     width: 100%;
+    fill: #fff;
+}
+
+.waveGrey {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    fill:  #fff5ee;
 }
 
 /* About us */
